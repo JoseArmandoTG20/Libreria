@@ -162,6 +162,9 @@ int main()
         switch(opcm)
         {
             case 1:
+                
+                repUsu = true;
+                
                 while(repUsu == true)
                 {
                     menuUsu();
@@ -219,6 +222,9 @@ int main()
             break;
 
             case 2:
+                
+                repLib = true;
+               
                 while(repLib == true)
                 {
                     menuLibro();
@@ -269,6 +275,9 @@ int main()
             break;
 
             case 3:
+                
+                repPres = true;
+                
                 while(repPres == true)
                 {
                     menuPres();
